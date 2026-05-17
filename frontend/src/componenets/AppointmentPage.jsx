@@ -7,7 +7,7 @@ import {
   iconSize,
 } from "../assets/dummyStyles";
 import axios from "axios";
-const API_BASE = "https://medicare-backend2-rt62.onrender.com";
+const API_BASE = API_BASE_URL;
 const API = axios.create({ baseURL: API_BASE });
 import {
   Bell,
