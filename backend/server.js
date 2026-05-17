@@ -17,6 +17,8 @@ const PORT = process.env.PORT || 4000;
 const allowOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
+  "https://prime-cure-hospital-management-syst.vercel.app",
+  "https://prime-cure-hospital-management-syst-lyart.vercel.app",
 ];
 
 //  MiddleWare
