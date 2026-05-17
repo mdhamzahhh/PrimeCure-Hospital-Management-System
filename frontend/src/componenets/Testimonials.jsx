@@ -175,7 +175,7 @@ const Testimonials = () => {
       <div
         className={testimonialStyles.grid}
         onMouseEnter={() => setIsPaused(true)}
-        onmouseLeave={() => setIsPaused(false)}
+        onMouseLeave={() => setIsPaused(false)}
       >
         <div
           className={`${testimonialStyles.columnContainer} ${testimonialStyles.leftColumnBorder} `}

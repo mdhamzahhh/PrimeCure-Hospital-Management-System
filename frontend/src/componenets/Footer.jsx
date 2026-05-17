@@ -51,7 +51,7 @@ const Footer = () => {
       Icon: Instagram,
       color: footerStyles.instagramColor,
       name: "Instagram",
-      href: "https://www.instagram.com//",
+      href: "https://www.instagram.com/",
     },
     {
       Icon: Linkedin,
@@ -158,7 +158,7 @@ const Footer = () => {
             <h3 className={footerStyles.sectionTitle}>Our Services</h3>
             <ul className={footerStyles.linksList}>
               {services.map((service, i) => (
-                <li key={service.name}>
+                <li key={`${service.name}-${i}`}>
                   <a href={service.href} className={footerStyles.serviceLink}>
                     <div className={footerStyles.serviceIcon}></div>
                     <span>{service.name}</span>
