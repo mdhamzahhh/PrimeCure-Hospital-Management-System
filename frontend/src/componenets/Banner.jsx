@@ -35,8 +35,8 @@ const Banner = () => {
 
                 <div className={bannerStyles.titleContainer}>
                   <h1 className={bannerStyles.title}>
-                    Medi
-                    <span className={bannerStyles.titleGradient}>Care+</span>
+                    Prime
+                    <span className={bannerStyles.titleGradient}>Cure+</span>
                   </h1>
 
                   {/* Stars */}
