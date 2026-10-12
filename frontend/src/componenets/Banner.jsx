@@ -107,7 +107,7 @@ const Banner = () => {
                 </button>
 
                 <button
-                  onClick={() => (window.location.href = "tel:9546421139")}
+                  onClick={() => (window.location.href = "tel:7003759978")}
                   className={bannerStyles.emergencyButton}
                 >
                     <div className={bannerStyles.emergencyButtonContent}>

@@ -112,7 +112,7 @@ const ContactPage = () => {
       form.department || "N/A"
     }\nService: ${form.service || "N/A"}\nMessage: ${form.message}`;
 
-    const url = `https://wa.me/9546421139?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/7003759978?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
 
     setForm(initial);
@@ -282,7 +282,7 @@ const ContactPage = () => {
             </p>
 
             <p className={contactPageStyles.infoItem}>
-              <Phone size={16} /> 9546421139
+              <Phone size={16} /> 7003759978
             </p>
             <p className={contactPageStyles.infoItem}>
               <Mail size={16} /> mdhamzah04@gmail.com
